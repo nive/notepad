@@ -27,6 +27,13 @@ up and configured:
 
 3) UserAccounts: name `users`, default settings 
 
+## Commandline script to create a zip file
+
+Here is a simple command line command to turn the `app` directory only into a 
+zip file :
+
+    git archive --format zip --output ../app.zip master:app
+
 ## License
 
 Released under the MIT-License. See http://jquery.org/license 
