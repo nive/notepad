@@ -1,0 +1,83 @@
+
+body {
+  padding-bottom: 40px;
+  color: #5a5a5a;
+}
+
+textarea {
+  border: none;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+}
+
+form {
+  padding: 1em;
+  border-top: 1px dashed rgb(221, 221, 221);
+  border-bottom: 1px dashed rgb(221, 221, 221);
+}
+.top {
+  background-color: #FFFFC1;
+  padding-bottom: 1em;
+  margin-bottom: 1em;
+}
+
+.header {
+  text-align: center;
+}
+
+.forms {
+  margin-bottom:1em;
+}
+
+.note {
+  white-space: pre-wrap;
+  overflow: auto;
+}
+.note::before, .note::before {
+  display:none;
+}
+#notes, 
+#message, 
+.nouser, 
+.auth { display: none; }
+
+.appfooter {
+  color:#828282;
+  font-size:90%;
+}
+
+/* bootstrap restyling */
+.navbar {
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  margin-bottom:0;
+}
+
+.panel {
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  background-color: #FFFFFF;
+}
+.panel-body {
+  height: 150px;
+}
+.panel-footer {
+  font-size: 0.9em;
+  line-height: 0.7em;
+  padding-top: 0.8em;
+  padding-bottom: 0.2em;
+  margin-bottom:0;
+  color: #828282;
+}
+
+.panel-footer a {
+  font-weight: bold;
+}
+
+.controls input {
+  width:100%;
+  margin-bottom:0.5em;
+}
