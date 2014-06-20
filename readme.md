@@ -8,7 +8,7 @@ Backend functionality (storage, user management and authentication) is
 connected through web apis provided by the DataStorage and UserAccount
 components.
 
-A ready to use installation is running as [notepad.nive.io].
+A ready to use installation is running as [notepad.nive.io](http://notepad.nive.io)
 
 If you would like to setup your own notepad or use it a as starting to try
 out the platform follow the steps described in the next section.
