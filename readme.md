@@ -19,10 +19,12 @@ The backend for the notepad requires the following three components to be set
 up and configured:
 
 1) FileHosting: name `app`, container for the actual application files 
+
 2) DataStorage: name `notes`, database to store notes 
   - Keys + Validators: key=`note`, type=`text`, minimum size=`1`, maximum size=``
   - Settings: key scope=`multiple values per key`
   - Security: create item=`authenticated`, <all other functions>=`owner`
+
 3) UserAccounts: name `users`, default settings 
 
 ## License
