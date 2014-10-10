@@ -18,14 +18,16 @@ out the platform follow the steps described in the next section.
 The backend for the notepad requires the following three components to be set
 up and configured:
 
-1) FileHosting: name `app`, container for the actual application files 
-
-2) DataStorage: name `notes`, database to store notes 
+1) DataStorage: name `notes`, database to store notes 
   - Keys + Validators: key=`note`, type=`text`, minimum size=`1`, maximum size=``
   - Settings: key scope=`multiple values per key`
-  - Security: create item=`authenticated`, <all other functions>=`owner`
+  - Security: create item=`authenticated`, *all other functions*=`owner`
 
-3) UserAccounts: name `users`, default settings 
+2) FileHosting: default settings
+
+3) UserAccounts: default settings 
+
+4) Domain settings: Administration -> Default urls: Set Default page = `/app/index.html`
 
 ## Commandline script to create a zip file
 
@@ -37,4 +39,5 @@ zip file :
 ## License
 
 Released under the MIT-License. See http://jquery.org/license 
+
 (c) 2013-2014 Nive GmbH - www.nive.co  
